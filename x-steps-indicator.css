@@ -1,0 +1,27 @@
+x-steps-indicator {
+	background-color: black;
+	padding: 5px;
+
+}
+
+x-steps-indicator circle.current {
+	background-color: white;
+	box-shadow: 0px 0px 8px 3px white;
+}
+
+x-steps-indicator circle {
+	width: 7px;
+	height: 7px;
+	display: inline-block;
+	border-radius: 50%;
+	border: 1px solid white;
+	vertical-align: middle;
+}
+
+x-steps-indicator rod {
+	width: 15px;
+	height: 1px;
+	background-color: white;
+	display: inline-block;
+	vertical-align: middle;
+}
