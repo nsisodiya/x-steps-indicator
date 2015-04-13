@@ -3,18 +3,12 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title></title>
-    <script type="text/javascript" src="./bower_components/webcomponents.js/webcomponents-lite.js"></script>
-    <script type="text/javascript" src="./x-steps-indicator.js"></script>
+    <script type="text/javascript" src="./bower_components/webcomponents.js/webcomponents-lite.min.js"></script>
+    <script type="text/javascript" src="./bower_components/pitana.js/dist/pitana.min.js"></script>
 
-    <link rel="stylesheet" type="text/css" href="x-steps-indicator.css">
-
-    <script>    
-    	window.addEventListener('WebComponentsReady', function(e) {
-
-        });
-    </script>
+    <link rel="import" href="src/pt-steps-indicator.html"/>
 </head>
 <body>
-	<x-steps-indicator current="2" total="5"></x-steps-indicator>
+	<pt-steps-indicator current="2" total="5"></pt-steps-indicator>
 </body>
 </html>

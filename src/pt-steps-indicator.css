@@ -1,0 +1,26 @@
+pt-steps-indicator {
+	padding: 5px;
+
+}
+
+pt-steps-indicator circle.current {
+	background-color: blue;
+	box-shadow: 0px 0px 8px 3px lightblue;
+}
+
+pt-steps-indicator circle {
+	width: 7px;
+	height: 7px;
+	display: inline-block;
+	border-radius: 50%;
+	border: 1px solid blue;
+	vertical-align: middle;
+}
+
+pt-steps-indicator rod {
+	width: 15px;
+	height: 1px;
+	background-color: blue;
+	display: inline-block;
+	vertical-align: middle;
+}
